@@ -1,10 +1,10 @@
-                @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
                 :root {
-                    --cor-primaira: #000000;
-                    --cor-secundaria:#C7C8CC;
-                    --cor-terciaria:#E3E1D9;
-                    --cor-hover: #F2EFE5;
+                    --cor-primaria: #000000;
+                    --cor-secundaria:#f6f6f6;
+                    --cor-terciaria:#22f4fd;
+                    --cor-hover: #272727;
 
                     --fonte-primaria:'Krona One', sans-serif;
                     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -18,13 +18,12 @@
                 body{
                 
                     box-sizing: border-box;
-                    background-color: var(--cor-primaira);
+                    background-color: var(--cor-primaria);
                     color: var(--cor-secundaria);
                 }
                 .cabecalho{
                     padding: 2% 0% 0% 15%;
                 }
-
                 .cabecalho__menu {
                 display: flex;
                 gap: 80px;
@@ -37,9 +36,6 @@
                     color:  var(--cor-terciaria);
                     text-decoration: none;
                 }
-
-
-
                 .apresentacao {
                     padding:5% 15%;
                     display: flex;
@@ -56,10 +52,9 @@
                 }
 
                 .apresentacao__conteudo__titulo{
-                            font-size: 2.25rem;
+                        font-size: 2.25rem;
                         font-family: var(--fonte-primaria);
                         }
-                        
                         .titulo-destaque{
                             color: var(--cor-terciaria);
                 }
@@ -107,9 +102,10 @@
                 }
 
                 .rodape{
-                    padding: 24px;
+                    
                     color: var(--cor-primaira);
                     background-color: var(--cor-terciaria);
+                    padding: 24px;  
                     text-align: center;
                     font-family: var(--fonte-secundaria);
                     font-size: 1.5rem;
@@ -122,11 +118,11 @@
                     }    .cabecalho__menu {
                         justify-content: center;
                     }
-                    }
                     .apresentacao {
                     flex-direction:column-reverse;
                     padding: 5%;
                 }
                 .apresentacao__conteudo {
                     width: auto;
+                }
                 }
